@@ -1,0 +1,22 @@
+.header-img {
+    width: 100%;
+    height: 400px;
+    /* background: url('https://isometric.online/wp-content/uploads/2019/07/Marketing_strategy_SVG.svg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: center;
+    color: black;
+  }
+
+.banner-text2 {
+    
+    width: 75%;
+    margin: left;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 120px;
+    
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+

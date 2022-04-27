@@ -1,0 +1,192 @@
+
+
+.wrapper1{
+
+  width: 100%;
+  height: 100%;
+  font-family: 'Anton', sans-serif;
+  /* display: flex ;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("");
+  background-color:#e6e0e0 ; */
+  background: url('https://i1.wp.com/translatesongstudio.com/wp-content/uploads/2018/09/white-background-4.jpg?ssl=1');
+  /*background: linear-gradient(to right, #42648b, #2b83d4, #07c5df);*/
+  
+}
+
+.blog-body {
+  margin: left auto;
+  width: 40%;
+  background-color:#258ea6 ;
+  justify-self: center;
+  justify-content: center;
+}
+
+.bodylayout {
+  justify-self: right;
+}
+
+.incard{
+
+  width: 100%;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+}
+
+.wrapper{
+
+  width: 100%;
+  height: 100vh;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#258ea6 ;
+}
+
+.form-wrapper{
+  width: 400px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color:#555 ;
+  background-color:#ffffff ;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.form {
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label{
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+input::-moz-placeholder{
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999999;
+}
+
+
+
+.firstName,
+.lastName,
+.email,
+.password{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;  
+}
+
+.firstName1{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;  
+  width: 100%;
+  margin-bottom: 0.25em;
+  font-size: 0.8em;
+}
+
+.firstName,
+.lastName {
+  width: 100%;
+}
+
+.email,
+.password{
+  width: 100%;
+}
+
+.createAccount{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerthe {
+  padding: 30px;
+  text-align: center;
+  background: #e1e4e2;
+  color: rgb(8, 7, 7);
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.imstock {
+  padding: 30px;
+  text-align: left;
+  /* background: #ffffff; */
+  background: url('https://i1.wp.com/translatesongstudio.com/wp-content/uploads/2018/09/white-background-4.jpg?ssl=1');
+  color: rgb(8, 7, 7);
+  font-size: 18px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.newsstock {
+  padding: 30px;
+  text-align: left;
+  /* background: #ffffff; */
+  color: rgb(8, 7, 7);
+  font-size: 18px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.headername {
+  font-family: 'Mitr', sans-serif;
+  color: rgb(8, 7, 7);
+  text-align: left;
+}
+
+.headernametable {
+  font-family: 'Mitr', sans-serif;
+  color: rgb(8, 7, 7);
+  background: #c0c4c0;
+}
+.headernametable2 {
+  font-family: 'Mitr', sans-serif;
+  color: rgb(8, 7, 7);
+  background: #c0c4c0;
+  text-align: center;
+}
+.headernametable3 {
+  font-family: 'Mitr', sans-serif;
+  color: rgb(8, 7, 7);
+  text-align: center;
+}
+.bodyfull{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.sizewindow{
+  max-width: 100%;
+}
+
+.input-group.md-form.form-sm.form-1 input {
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.panel-group {
+  margin-top: 30px;
+}
+
+
+.panel-collapse {
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+}
+.panel-close {
+  max-height: 0;
+}

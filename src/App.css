@@ -352,8 +352,7 @@ h2{
 }
 
 .imx2 {
-  width: 170px!important;
-  margin-left: 33%!important;
+  width: 150px!important;
   margin-top: 5px!important;
 }
 
@@ -1032,7 +1031,7 @@ hr{
 .BG-Forex {
   background-color: #f8f8f8!important;
   text-align: center!important;
-  padding: 13px!important;
+  padding: 15px!important;
   border-bottom: 1px solid #fff!important;
   transition: 0.3!important;
 
@@ -1051,7 +1050,7 @@ hr{
 }
 
 .Colortext-Priceandmore {
-  margin-left: 10px!important;
+  margin-left: -10px!important;
   color: rgb(31, 31, 31)!important;
   display: inline!important;
 }
@@ -1704,13 +1703,6 @@ h2{
   .imx {
     margin-left: 43%!important;
   }
-
-  .imx2 {
-
-    margin-left: 32%!important;
-
-  }
-
 
   .bbt3 {
     display: none!important;

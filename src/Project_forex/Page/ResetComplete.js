@@ -3,7 +3,7 @@ import * as React from 'react';
 import ResetEmail from '../Img/ResetEmail.png'
 import BGM5 from '../Img/BGM6.jpg';
 import { Container, Grid, Paper } from '@mui/material';
-
+import { Link } from 'react-router-dom';
 
 
 function ResetComplete() {
@@ -46,9 +46,19 @@ function ResetComplete() {
 
 
 
-                        <div style={{textAlign:"center",marginLeft:"-20px",marginTop:"-40px"}}>
-                            <h3 className='font'>ส่งข้อความไปยัง Email ของท่านแล้ว</h3>
+                        <div style={{textAlign:"center",marginLeft:"-20px",marginTop:"-30px"}}>
+                            <h5 className='font' style={{fontSize:"105%"}}>ส่งข้อความไปยัง Email ของท่านแล้ว</h5>
                         </div>
+
+                        <div style={{height:"20px"}}/>
+
+                                <div>
+                                    <Link to="/" className='linklog'>
+                                        <button className="Btsignin linkx">
+                                        <p className='font-continue'>Sign in</p>
+                                        </button><br /><br />
+                                    </Link>
+                                </div>
 
 
 

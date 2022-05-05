@@ -249,7 +249,7 @@ function Forex() {
                   <Grid container spacing={2}>
                     <Grid item xs={12} sm={12} md={12} lg={12} xl>
                       <div style={{textAlign:"center"}}>
-                        <h3>ภาพรวม Up - down ⭷  ⭸</h3>
+                        <h3><pre>ภาพรวม Up - down ⭷  ⭸</pre></h3>
                         <div style={{ height: "10px" }} />
                         {datao && timeframe && zigzag && <BasicTable datao={datao} timeframe={timeframe} zigzag={zigzag} direction="from_high" gc="from_Hight_to_Low_aka_GC"></BasicTable>}
                       </div>
@@ -258,7 +258,7 @@ function Forex() {
 
                     <Grid item xs={12} sm={12} md={12} lg={12} xl>
                       <div style={{textAlign:"center"}}>
-                        <h3>ภาพรวม Down - up ⭸  ⭷  </h3>
+                        <h3><pre>ภาพรวม Down - up ⭸  ⭷ </pre></h3>
                         <div style={{ height: "10px" }} />
                         {datao && timeframe && zigzag && <BasicTable datao={datao} timeframe={timeframe} zigzag={zigzag} direction="from_low" gc="from_Low_To_Hight_aka_GC"></BasicTable>}
                       </div>

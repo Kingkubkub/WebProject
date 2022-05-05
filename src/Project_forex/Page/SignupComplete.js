@@ -49,14 +49,14 @@ function SignupComplete() {
 
 
                         <div style={{textAlign:"center",marginLeft:"-20px"}}>
-                            <h3 className='font'>สมัครสมาชิกสำเร็จ</h3>
+                            <h5 className='font'style={{fontSize:"105%"}}>สมัครสมาชิกสำเร็จ</h5>
                         </div>
 
                         <div style={{height:"20px"}}/>
 
                                 <div>
-                                    <Link to="/" className='linklog'>
-                                        <button className="Btsignin linkx">
+                                    <Link to="/" className='linklog'  >
+                                        <button className="Btsignin linkx" >
                                         <p className='font-continue'>Sign in</p>
                                         </button><br /><br />
                                     </Link>

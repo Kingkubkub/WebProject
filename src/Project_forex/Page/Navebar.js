@@ -41,9 +41,9 @@ function Navebar(props) {
 
               <div style={{ height: "95px" }} />
               <div className='Services'>
-                <Link to="/Index/Home" style={{ textDecoration: "none" }}><p className='font ser1 hover-services'><span title="หน้าหลัก"><HomeIcon className='icon-services' style={{ fontSize: "22px" }} /></span><span className='services-mt font'>หน้าหลัก</span></p></Link>
+                <Link to="/Index/Home" style={{ textDecoration: "none" }}><p className='font ser1 hover-services'><span title="หน้าหลัก"><HomeIcon className='icon-services' style={{ fontSize: "22px" }} /></span><span className='services-mt font'style={{position:"relative",left:"3px"}}>หน้าหลัก</span></p></Link>
                 <div className='button-setting'>
-                  <Link to="/Index/Forex" style={{ textDecoration: "none" }}><p className='font ser1 hover-services' style={{ marginTop: "-15px" }}><span title='Forex'> <span title="ตั้งค่า"><SettingsIcon  className='icon-services' style={{ fontSize: "22px" }} /></span> </span><span className='services-mt font'>การตั้งค่า</span></p></Link>
+                  <Link to="/Index/Forex" style={{ textDecoration: "none" }}><p className='font ser1 hover-services' style={{ marginTop: "-15px" }}><span title='Forex'> <span title="ตั้งค่า"><SettingsIcon  className='icon-services' style={{ fontSize: "22px" }} /></span> </span><span className='services-mt font' >การตั้งค่า</span></p></Link>
                 </div>
               </div>
 
